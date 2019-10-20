@@ -12,6 +12,7 @@ public class Main {
         for (int i = 0; i < arr.length; i++)
             System.out.println("b" + i + ":" + arr[i]);
 
+        
         double[] a;
         a = new double[5];
         a[0] = 0;
@@ -20,9 +21,6 @@ public class Main {
             System.out.println(a[i]);
         }
 
-        boolean[] flags = new boolean[200];
-        flags[50] = false;
-        flags[40] = true && false;
 
 
     }
